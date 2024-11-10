@@ -10,6 +10,7 @@ require_once  'car.php';
        
        // $this->vehicle = new Vehicle();  // Hardcoded dependencies
         // Use dependency injection by passing the vehicle instance
+        // Construction Injection
        $this->vehicle = $vehicle;
     }
 
